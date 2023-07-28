@@ -1,0 +1,5 @@
+com/idat/demo/DemoApplication.class
+com/idat/demo/Instrumento.class
+com/idat/demo/Categoria.class
+com/idat/demo/CategoriaRepository.class
+com/idat/demo/InstrumentoRepository.class
