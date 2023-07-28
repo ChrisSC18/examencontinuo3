@@ -1,0 +1,27 @@
+
+@server = https://chrissc18-orange-train-7vrjgwv544wcpw4-8080.preview.app.github.dev
+@api = {{server}}/api/ec3
+
+################ Categorias: ################
+###
+GET {{api}}/categorias
+###
+POST {{api}}/categorias
+Content-Type: application/json
+
+{"nombre": "Instrumentos de Cuerdas 2"}
+
+################ Instrumentos: ################
+###
+GET {{api}}/instrumentos
+
+###
+POST {{api}}/instrumentos
+Content-Type: application/json
+
+{"nombre": "Zapato", "categoria": "https://chrissc18-orange-train-7vrjgwv544wcpw4-8080.preview.app.github.dev/api/ec3/categorias/1"}
+
+###
+GET {{api}}/instrumentos/1/categoria
+###
+GET {{api}}/instrumentos?sort=nombre,desc
